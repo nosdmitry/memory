@@ -1,0 +1,12 @@
+.card__common {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: wheat;
+  font-size: 22px;
+  backface-visibility: hidden;
+}

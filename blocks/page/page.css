@@ -1,0 +1,11 @@
+.page {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid red;
+  max-width: 1024px;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 40px;
+}

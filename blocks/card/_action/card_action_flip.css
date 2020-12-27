@@ -1,0 +1,3 @@
+.card_action_flip {
+  transform: rotateY(180deg);
+}
