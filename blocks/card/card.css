@@ -4,7 +4,6 @@
   border: 1px solid green;
   position: relative;
   box-sizing: border-box;
-  scale: (1);
   transform-style: preserve-3d;
   transition: transform, .5s;
 }
