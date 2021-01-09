@@ -1,7 +1,5 @@
 .card {
-  min-width: 50px;
-  min-height: 100px;
-  border: 1px solid green;
+  min-width: 50px;  
   position: relative;
   box-sizing: border-box;
   transform-style: preserve-3d;

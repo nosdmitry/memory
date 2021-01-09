@@ -1,4 +1,10 @@
 .footer__copyright {
   margin: 0;
+  padding: 0 0 5px 0;
+  font-size: 18px;
+  color: #ca763e;
+}
+
+.footer__copyright:last-of-type {
   padding: 0;
 }

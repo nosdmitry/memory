@@ -8,55 +8,44 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="body">
+  
   <div class="page">
 
     <header class="header">
       <h1 class="header__title">Memory</h1>
-      <p class="header__subtitle">Open all cards</p>
+      <p class="header__subtitle">Open all similar cards</p>
     </header>
     
     <main>
       <section class="cards">
 
-        <div class="card" data-id="1">
-          <div class="card__common card__front-face">1</div>
-          <div class="card__common card__back-face">click</div>
-        </div>
-
-        <div class="card" data-id="1">
-          <div class="card__common card__front-face">1</div>
-          <div class="card__common card__back-face">click</div>
-        </div>
-        <div class="card" data-id="2">
-          <div class="card__common card__front-face">2</div>
-          <div class="card__common card__back-face">click</div>
-        </div>
-        <div class="card" data-id="2">
-          <div class="card__common card__front-face">2</div>
-          <div class="card__common card__back-face">click</div>
-        </div>
-        <div class="card" data-id="3">
-          <div class="card__common card__front-face">3</div>
-          <div class="card__common card__back-face">click</div>
-        </div>
-        <div class="card" data-id="3">
-          <div class="card__common card__front-face">3</div>
-          <div class="card__common card__back-face">click</div>
-        </div>
-
       </section>
     </main>
 
     <footer class="footer">
-      <p class="footer__copyright">&copy; Носов Дмитрий, <a class="footer__link" href="#">GitHub</a></p>
+      <p class="footer__copyright">&copy; Dmitry Nosov, <a class="footer__link" href="https://github.com/nosdmitry/memory" target="_blanck">GitHub</a></p>
+      <p class="footer__copyright">Pictures from <a class="footer__link" href="https://ru.pngtree.com" target="_blanck">Pngtree.com</a></p>
     </footer>
+
+    <div class="popup">
+      <div class="result">
+        <h2 class="result__title">GAME OVER!</h2>
+        <div class="result__resume">
+          <p class="result__paragraph">You've clicked <span class="result__numbers result__clicked-times">20</span> times</p>
+          <p class="result__paragraph">and opened all <span class="result__numbers result__opened-cards">12</span> cards!</p>
+        </div>
+        <a href="./index.html" class="result__button-again">Again?</a>
+      </div>
+    </div>
+    
   </div>
 
   <template class="card-template">
     <div class="card" data-id="1">
-      <div class="card__common card__front-face">1</div>
-      <div class="card__common card__back-face">click</div>
+      <img src="#" title="#" class="card__common card__front-face">
+      <!-- <div class="card__common card__back-face">click</div> -->
+      <img src="#" title="#" class="card__common card__back-face">
     </div>
   </template>
 

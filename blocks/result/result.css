@@ -1,0 +1,10 @@
+.result {
+  padding: 20px;
+  min-width: 300px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 40px;
+}

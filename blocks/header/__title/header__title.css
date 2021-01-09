@@ -1,4 +1,7 @@
 .header__title {
   margin: 0;
   padding: 0;
+  color: #ca763e;
+  font-size: 45px;
+  padding-bottom: 10px;
 }
