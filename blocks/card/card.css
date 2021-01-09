@@ -1,5 +1,6 @@
 .card {
   min-width: 50px;  
+  padding-bottom: 100%;
   position: relative;
   box-sizing: border-box;
   transform-style: preserve-3d;
