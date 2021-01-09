@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import Url(../vendor/fonts/font.css);
 
 @import url(../blocks/page/page.css);
 
@@ -17,3 +18,9 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/result/result.css);
+@import url(../blocks/result/__title/result__title.css);
+@import url(../blocks/result/__resume/result__resume.css);
+@import url(../blocks/result/__button-again/result__button-again.css);

@@ -8,4 +8,5 @@
   display: grid;
   grid-template-rows: auto auto auto;
   row-gap: 40px;
+  font-family: 'Sensei Medium';
 }

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Sensei Medium';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./sensei-medium.woff") format("woff"), 
+       url("./sensei-medium.woff2") format("woff2");
+}

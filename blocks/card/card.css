@@ -1,6 +1,5 @@
 .card {
-  min-width: 50px;
-  min-height: 100px;
+  min-width: 50px;  
   border: 1px solid green;
   position: relative;
   box-sizing: border-box;

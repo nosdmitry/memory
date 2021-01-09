@@ -1,3 +1,5 @@
 .card__back-face {
   background-color: blue;
+  object-fit: cover;
+  object-position: center;
 }

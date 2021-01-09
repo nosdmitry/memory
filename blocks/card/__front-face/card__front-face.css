@@ -1,4 +1,8 @@
 .card__front-face {
   background-color: green;
+  background-color: white;
+  object-fit: contain;
+  object-position: center;
+  padding: 5px;
   transform: rotateY(180deg);
 }
