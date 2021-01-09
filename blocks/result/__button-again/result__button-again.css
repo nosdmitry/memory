@@ -1,0 +1,17 @@
+.result__button-again {
+  outline: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(0, 88, 122);
+  background-color: rgb(99, 197, 107);
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: opacity .2s linear;
+}
+
+.result__button-again:hover {
+  opacity: .9;
+}

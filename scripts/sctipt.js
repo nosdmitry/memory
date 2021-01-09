@@ -61,7 +61,6 @@ function createCard(data) {
   const cardFront = card.querySelector('.card__front-face');
   const cardBack = card.querySelector('.card__back-face');
   cardWrap.setAttribute('data-id', data.id);
-  //cardBack.textContent = data.id;
   cardFront.setAttribute('src', data.image);
   cardBack.setAttribute('src', './images/card-front-face.jpg');
   return card;
@@ -128,9 +127,18 @@ function resetBoard() {
   [lockBoard, hasFlipedCard] = [false, false];
 }
 
+function showResult() {
+  const popup = document.querySelector('.popup');
+  const numClicked = popup.querySelector('.result__clicked-times');
+  const numCards = popup.querySelector('.result__opened-cards');
+  numClicked.textContent = clickCounter;
+  numCards.textContent = countFlipedCards();
+  popup.style.display = 'flex';
+}
+
 function checkForWin() {
   if(countFlipedCards() == initCards.length) {
-    console.log('Game OVER!!!');
+    showResult();
   }
 }
 
