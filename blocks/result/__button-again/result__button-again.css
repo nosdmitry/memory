@@ -10,6 +10,8 @@
   border: 1px solid green;
   border-radius: 10px;
   transition: opacity .2s linear;
+  user-select: none;
+  box-shadow: 3px 3px 3px gray;
 }
 
 .result__button-again:hover {

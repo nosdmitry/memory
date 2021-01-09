@@ -9,4 +9,5 @@
   color: wheat;
   font-size: 22px;
   backface-visibility: hidden;
+  box-shadow: 3px 3px 3px rgb(151, 120, 84);
 }

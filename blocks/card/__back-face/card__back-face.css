@@ -1,5 +1,10 @@
 .card__back-face {
-  background-color: blue;
   object-fit: cover;
   object-position: center;
+  transition: transform .2s linear;
+}
+
+.card__back-face:hover {  
+  transform: scale(1.01);
+  transform: translateY(-2px);  
 }

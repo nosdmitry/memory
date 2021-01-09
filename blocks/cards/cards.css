@@ -1,5 +1,4 @@
 .cards {
-  border: 1px solid blue;
   display: grid;
   height: 60vh;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  

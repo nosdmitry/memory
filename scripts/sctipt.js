@@ -50,9 +50,6 @@ initCards.forEach(card => initCards.push(card));
 function renderCards() {
   const listItems = initCards.map(createCard);
   sectionCards.append(...listItems);
-  if(initCards.length == 18) {
-    sectionCards.style = 'grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));';
-  }
 }
 
 function createCard(data) {
