@@ -1,7 +1,18 @@
 .cards {
-  display: grid;
-  height: 60vh;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
+  display: grid; 
+  grid-template-columns: auto auto auto auto auto auto auto auto;
   column-gap: 10px;
   row-gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .cards {
+    grid-template-columns: auto auto auto auto;
+  }
 }

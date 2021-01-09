@@ -29,14 +29,14 @@ const initCards = [
     id: 6,
     image: './images/mouse.png'
   },
-  // {
-  //   id: 7,
-  //   image: './images/elephant.png'
-  // },
-  // {
-  //   id: 8,
-  //   image: './images/monkey.png'
-  // },
+  {
+    id: 7,
+    image: './images/elephant.png'
+  },
+  {
+    id: 8,
+    image: './images/monkey.png'
+  },
   // {
   //   id: 9,
   //   image: './images/ass.png'
