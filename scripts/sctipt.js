@@ -59,7 +59,7 @@ function createCard(data) {
   const cardBack = card.querySelector('.card__back-face');
   cardWrap.setAttribute('data-id', data.id);
   cardFront.setAttribute('src', data.image);
-  cardBack.setAttribute('src', './images/card-front-face.jpg');
+  cardBack.setAttribute('src', './images/2.jpg');
   return card;
 }
 
