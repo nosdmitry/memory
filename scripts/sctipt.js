@@ -135,7 +135,7 @@ function showResult() {
 
 function checkForWin() {
   if(countFlipedCards() == initCards.length) {
-    showResult();
+    setTimeout(showResult, 500);    
   }
 }
 
