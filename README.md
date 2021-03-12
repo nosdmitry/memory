@@ -2,7 +2,7 @@
 
 This is a simple game just for practice my JS skills. 
 
-[Play it here.](on ghpages http://nosdmitry.github.io/memory)
+[Play it here](http://nosdmitry.github.io/memory)
 
 ## What to do?
 
